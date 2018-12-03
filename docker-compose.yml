@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  advent:
+    build:
+      context: .
+    volumes:
+      - .:/home/advent
+    ports:
+      - '4000:4000'
